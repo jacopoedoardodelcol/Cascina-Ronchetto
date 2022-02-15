@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Olio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <link rel="stylesheet" href="css/product.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <style type="text/css">
+            body {background-color: lightgoldenrodyellow; font-family: sans-serif;}   
+        </style>
+        <script type="text/javascript" src="js/navigation.js"></script>
+    </head>
+    
+    <body>
+
+<!-- Navigation bar -->
+        <div class="sidebar" id="nav_sidebar">
+            <a href="javascript:void(0)" class="close_button" onclick="closeSidebar()">&times;</a>
+            <a href="Home.html">Home</a>
+            <a href="Menu.html">Ristorante</a>
+            <a href="Activities.html">Visite guidate</a>
+            <a href="http://localhost/Contact.php">Contatti</a>
+            <button class="dropdown-button" onclick="dropdown()">Prodotti</button>
+            <div class="dropdown-window" id="dropdown_window">
+                <a href="Product_cheese.html">Formaggio</a>
+                <a href="Product_honey.html">Miele</a>
+                <a href="Product_oil.html">Olio</a>
+                <a href="Product_wine.html">Vino</a>
+            </div>
+        </div>    
+    
+<!-- Top menu -->
+        <div id="top_menu">
+            <button class="open_button" onclick="openSidebar()" style="display: inline-block; float: left">&#9776;</button>
+            <div style="display: inline-block; float: right; font-size: 30px; padding-right: 10px">Cascina Ronchetto</div>
+        </div>
+        
+<!-- Banner -->
+        <div class="banner">
+            <img src="images/product/oil/oil_banner.jpg" style="width:100%" alt="Olio e olive">
+            <div class="banner-title">I nostri oli</div>
+        </div>
+        
+<!-- Products -->
+        <section class="product-grid">
+
+            <div class="grid-item">
+                <img src="images/product/oil/EVO_bio.jpg" alt="Bottiglia olio EVO bio"/>
+                <h2>EVO Bio</h2>
+                <p>Olio dal sapore delicato la cui certificazione ne garantisce l’alto livello qualitativo e la piena tracciabilità.</p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/oil/bruno.jpg" alt="Bottiglia olio bruno"/>
+                <h2>Olio bruno</h2>
+                <p>Olio dal gusto frtato medio intenso con sentori di carciofo e erbe aromatiche, caratterizzato da un retrogusto amaro e piccante.</p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/oil/GDF_filtrato.jpg" alt="Bottiglia olio Goccia di Frantoio filtrato"/>
+                <h2>Goccia Di Frantoio filtrato</h2>
+                <p>Olio fruttato leggero, delicato, arricchito da aromi mobidi e dolci.</p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/oil/nostrolio.jpg" alt="Bottiglia olio Nostrolio"/>
+                <h2>Nostrolio</h2>
+                <p>Olio fruttato medio con retrogusto equilibrato di amaro e piccante con sentori di mandorla e carciofo.</p>
+            </div>
+
+        </section>
+        
+    </body>
+</html>

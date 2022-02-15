@@ -1,0 +1,111 @@
+.open_button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+#top_menu {
+    overflow: hidden;
+    background-color: indianred;
+    text-align: center;
+}
+
+#top_menu a {
+    float: left;
+    display: block;  
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+    background-color: saddlebrown;
+    overflow-x: hidden;
+    padding-top: 40px;
+    transition: 0.7s;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: lightgoldenrodyellow;
+    display: block;
+    transition: 0.3s;
+}
+
+.dropdown-button {
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    color: lightgoldenrodyellow;
+    display: block;
+    transition: 0.3s;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.sidebar a:hover, .dropdown-button:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .close_button {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.open_button {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.open_button:hover {
+    background-color: #444;
+}
+
+.dropdown-window {
+    display: none;
+    width: 250px;
+    z-index: 200;
+    background-color: rosybrown;
+    padding-left: 15px;
+    position: absolute;
+}
+
+.active {
+    display: block;
+}
+
+.banner {
+    position: relative;
+    margin: auto;
+}
+
+.banner-title {
+    color: white;
+    font-size: 60px;
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 8px black;
+}

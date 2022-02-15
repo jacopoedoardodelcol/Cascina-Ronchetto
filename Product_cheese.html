@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Formaggio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <link rel="stylesheet" href="css/product.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <style type="text/css">
+            body {background-color: lightgoldenrodyellow; font-family: sans-serif;}   
+        </style>
+        <script type="text/javascript" src="js/navigation.js"></script>
+    </head>
+    
+    <body>
+
+<!-- Navigation bar -->
+        <div class="sidebar" id="nav_sidebar">
+            <a href="javascript:void(0)" class="close_button" onclick="closeSidebar()">&times;</a>
+            <a href="Home.html">Home</a>
+            <a href="Menu.html">Ristorante</a>
+            <a href="Activities.html">Visite guidate</a>
+            <a href="http://localhost/Contact.php">Contatti</a>
+            <button class="dropdown-button" onclick="dropdown()">Prodotti</button>
+            <div class="dropdown-window" id="dropdown_window">
+                <a href="Product_cheese.html">Formaggio</a>
+                <a href="Product_honey.html">Miele</a>
+                <a href="Product_oil.html">Olio</a>
+                <a href="Product_wine.html">Vino</a>
+            </div>
+        </div>    
+    
+<!-- Top menu -->
+        <div id="top_menu">
+            <button class="open_button" onclick="openSidebar()" style="display: inline-block; float: left">&#9776;</button>
+            <div style="display: inline-block; float: right; font-size: 30px; padding-right: 10px">Cascina Ronchetto</div>
+        </div>
+        
+<!-- Banner -->
+        <div class="banner">
+            <img src="images/product/cheese/cheese_banner.jpg" style="width:100%" alt="Forme di formaggio">
+            <div class="banner-title">I nostri formaggi</div>
+        </div>
+        
+<!-- Products -->
+        <section class="product-grid">
+
+            <div class="grid-item">
+                <img src="images/product/cheese/blu.jpg" alt="Formaggio Blu"/>
+                <h2>Blu</h2>
+                <p>Formaggio di capra erborinato dal gusto armonico ma sapido, in cui il sapore leggermente piccante non copra l’aroma caprino tipico e le note erbacee e speziate.</p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/cheese/caciotta.jpg" alt="Formaggio Caciotta"/>
+                <h2>Caciotta</h2>
+                <p>Il gusto è molto dolce e delicato, poco salato, l’aroma caprino è solo accennato. La crosta è edibile e di sentore lievemente amaro.</p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/cheese/cardofiore.jpg" alt="Formaggio Cardofiore"/>
+                <h2>Cardofiore</h2>
+                <p>Formaggio dal sapore particolarmente delicato, per effetto della lavorazione con caglio vegetale:l'aroma di anice stellato è appena percepibile.</p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/cheese/pan_del_pastore.jpg" alt="Formaggio Pan del Pastore"/>
+                <h2>Pan del pastore</h2>
+                <p>A stagionatura ottenuta prevale sulla superﬁcie del formaggio un gradevole odore di pasta di pane lievitata, da ciò il nome “Pan del Pastore”.</p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/cheese/tronchetto_nero.jpg" alt="Formaggio Tronchetto Nero"/>
+                <h2>Tronchetto nero</h2>
+                <p>Il formaggio viene spennellato di carbone vegetale nella prima fase dell’affinamento: ciò permette di accelerare la stagionatura mantenendo l’umidità ed ottenendo un sapore con un retrogusto più aromatico.</p>
+            </div>
+
+        </section>
+        
+    </body>
+</html>

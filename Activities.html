@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Visite guidate</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/activities.css">
+        <style type="text/css">
+            body {background-color: lightgoldenrodyellow; font-family: sans-serif;}   
+        </style>
+        <script type="text/javascript" src="js/navigation.js"></script>
+    </head>
+    
+    <body>
+
+<!-- Navigation bar -->
+        <div class="sidebar" id="nav_sidebar">
+            <a href="javascript:void(0)" class="close_button" onclick="closeSidebar()">&times;</a>
+            <a href="Home.html">Home</a>
+            <a href="Menu.html">Ristorante</a>
+            <a href="Activities.html">Visite guidate</a>
+            <a href="http://localhost/Contact.php">Contatti</a>
+            <button class="dropdown-button" onclick="dropdown()">Prodotti</button>
+            <div class="dropdown-window" id="dropdown_window">
+                <a href="Product_cheese.html">Formaggio</a>
+                <a href="Product_honey.html">Miele</a>
+                <a href="Product_oil.html">Olio</a>
+                <a href="Product_wine.html">Vino</a>
+            </div>
+        </div>    
+    
+<!-- Top menu -->
+        <div id="top_menu">
+            <button class="open_button" onclick="openSidebar()" style="display: inline-block; float: left">&#9776;</button>
+            <div style="display: inline-block; float: right; font-size: 30px; padding-right: 10px">Cascina Ronchetto</div>
+        </div>
+        
+<!-- Banner -->
+        <div class="banner">
+            <img src="images/activities/attivita_banner.jpg" style="width: 100%" alt="Collage delle attività disponibili">
+            <div class="banner-title">Visite guidate</div>
+        </div>
+        
+<!-- Activities -->    
+        <div style="padding: 20px">
+            <p>Presso il nostro agriturismo è possibile effettuare delle visite guidate per avere un contatto diretto con la natura, con gli animali e con la vita della campagna.</p>
+            <ul>
+                <li class="service-list">
+                    <img src="images/activities/trekking.jpg" alt="Trekking a cavallo"/>
+                    <h3>Trekking a cavallo</h3>
+                    <p>Scopri paesaggi inaspettati e scorci mozzaﬁato delle nostre dolci colline, visti da una insolita prospettiva (Età minima: 14 anni)</p>
+                </li>
+                <br>
+                <li class="service-list">
+                    <img src="images/activities/formaggio.jpg" alt="Latte e formaggi"/>
+                    <h3>Dal latte al formaggio</h3>
+                    <p>Un'esperienza bellissima di mungitura e caseificazione del formaggio</p>
+                </li>
+                <br>
+                <li class="service-list">
+                    <img src="images/activities/miele.jpg" alt="Ape che produce miele"/>
+                    <h3>Dal fiore al miele</h3>
+                    <p>Scopri la vita ed i segreti dell’affascinate mondo delle api</p>
+                </li>
+                <br>
+                <li class="service-list">
+                    <img src="images/activities/olio.jpg" alt="Pane condito con olio"/>
+                    <h3>Olive oil tasting</h3>
+                    <p>Impara a conoscere di apprezzare tutte le sfaccettature di questo nobile alimento</p>
+                </li>
+                <br>
+                <li class="service-list">
+                    <img src="images/activities/vino.jpg" alt="Calici di vino"/>
+                    <h3>Wine tasting</h3>
+                    <p>Goditi un percorso di degustazione itinerante fra i vigneti delle nostre colline (Età minima: 18 anni)</p>
+                </li>
+            </ul>
+        </div>
+        
+    </body>
+</html>

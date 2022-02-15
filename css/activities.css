@@ -1,0 +1,14 @@
+.service-list {
+    list-style-type: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+.service-list img {
+    float: left;
+}
+
+.service-list p,h3 {
+    display: inline-block;
+    padding-left: 10px;
+}

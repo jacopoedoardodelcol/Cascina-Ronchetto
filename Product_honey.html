@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Miele</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <link rel="stylesheet" href="css/product.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <style type="text/css">
+            body {background-color: lightgoldenrodyellow; font-family: sans-serif;}   
+        </style>
+        <script type="text/javascript" src="js/navigation.js"></script>
+    </head>
+    
+    <body>
+
+<!-- Navigation bar -->
+        <div class="sidebar" id="nav_sidebar">
+            <a href="javascript:void(0)" class="close_button" onclick="closeSidebar()">&times;</a>
+            <a href="Home.html">Home</a>
+            <a href="Menu.html">Ristorante</a>
+            <a href="Activities.html">Visite guidate</a>
+            <a href="http://localhost/Contact.php">Contatti</a>
+            <button class="dropdown-button" onclick="dropdown()">Prodotti</button>
+            <div class="dropdown-window" id="dropdown_window">
+                <a href="Product_cheese.html">Formaggio</a>
+                <a href="Product_honey.html">Miele</a>
+                <a href="Product_oil.html">Olio</a>
+                <a href="Product_wine.html">Vino</a>
+            </div>
+        </div>    
+    
+<!-- Top menu -->
+        <div id="top_menu">
+            <button class="open_button" onclick="openSidebar()" style="display: inline-block; float: left">&#9776;</button>
+            <div style="display: inline-block; float: right; font-size: 30px; padding-right: 10px">Cascina Ronchetto</div>
+        </div>
+        
+<!-- Banner -->
+        <div class="banner">
+            <img src="images/product/honey/honey_banner.jpg" style="width:100%" alt="Miele">
+            <div class="banner-title">I nostri mieli</div>
+        </div>
+        
+<!-- Products -->
+        <section class="product-grid">
+
+            <div class="grid-item">
+                <img src="images/product/honey/acacia.jpg" alt="Barattolo miele di Acacia"/>
+                <h2>Miele di Acacia</h2>
+                <p>Il miele di Acacia è molto apprezzato per il suo stato generalmente liquido. Il profumo delicato di cera fresca e il sapore leggermente vanigliato lo rendono un ingrediente perfetto in cucina.</p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/honey/erica.jpg" alt="Barattolo miele di Erica"/>
+                <h2>Miele di Erica</h2>
+                <p>Il miele di Erica presenta peculiarità uniche: il profumo di media intensità è quello tipico del fiore e le note, che ricordano il caramello, si ritrovano nel sapore ricco di accenti dolci e amari insieme.</p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/honey/millefiori.jpg" alt="Barattolo miele Millefiori"/>
+                <h2>Miele millefiori</h2>
+                <p>Il miele Milleﬁori è caratterizzato da un aroma nuovo ogni anno, determinato dall'ampia varietà di piante e dalle differentifioriture, a cui le api possono attingere a breve distanza dalle arnie.</p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/honey/tiglio.jpg" alt="Barattolo miele di Tiglio"/>
+                <h2>Miele di Tiglio</h2>
+                <p>Il miele di Tiglio presenta un aroma mentolato che dona una sensazione rinfrescante, con sentori di noce fresca ed erbe officinali, e un profumo balsamico di media intensità ma molto caratteristico.</p>
+            </div>
+
+        </section>
+        
+    </body>
+</html>

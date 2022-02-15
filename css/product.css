@@ -1,0 +1,19 @@
+.products_table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 25px;
+    text-align: center;
+}
+
+.product-grid {
+    padding: 40px;
+    display: grid;
+    grid: auto / repeat(4, 1fr);
+    grid-gap: 40px 20px;
+ }
+            
+.grid-item {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+ }

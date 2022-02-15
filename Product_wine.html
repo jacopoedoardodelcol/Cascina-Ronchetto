@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Vino</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <link rel="stylesheet" href="css/product.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <style type="text/css">
+            body {background-color: lightgoldenrodyellow; font-family: sans-serif;}   
+        </style>
+        <script type="text/javascript" src="js/navigation.js"></script>
+    </head>
+    
+    <body>
+
+<!-- Navigation bar -->
+        <div class="sidebar" id="nav_sidebar">
+            <a href="javascript:void(0)" class="close_button" onclick="closeSidebar()">&times;</a>
+            <a href="Home.html">Home</a>
+            <a href="Menu.html">Ristorante</a>
+            <a href="Activities.html">Visite guidate</a>
+            <a href="http://localhost/Contact.php">Contatti</a>
+            <button class="dropdown-button" onclick="dropdown()">Prodotti</button>
+            <div class="dropdown-window" id="dropdown_window">
+                <a href="Product_cheese.html">Formaggio</a>
+                <a href="Product_honey.html">Miele</a>
+                <a href="Product_oil.html">Olio</a>
+                <a href="Product_wine.html">Vino</a>
+            </div>
+        </div>    
+    
+<!-- Top menu -->
+        <div id="top_menu">
+            <button class="open_button" onclick="openSidebar()" style="display: inline-block; float: left">&#9776;</button>
+            <div style="display: inline-block; float: right; font-size: 30px; padding-right: 10px">Cascina Ronchetto</div>
+        </div>
+        
+<!-- Banner -->
+        <div class="banner">
+            <img src="images/product/wine/wine_banner.jpg" style="width:100%" alt="Vigna con grappolo d'uva">
+            <div class="banner-title">I nostri vini</div>
+        </div>
+        
+<!-- Products -->
+        <section class="product-grid">
+
+            <div class="grid-item">
+                <img src="images/product/wine/barbera.jpg" alt="Bottiglia vino Barbera IGT"/>
+                <h2>Barbera IGT</h2>
+                <p>Vino dal colore rosso intenso, ricco di profumi ﬂoreali e fruttati. Al palato si dimostra elegante, ﬁne e vellutato, con una tannicità morbida e adeguata.</p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/wine/riesling.jpg" alt="Bottiglia vino Riesling IGT"/>
+                <h2>Riesling IGT</h2>
+                <p>Vino dal colore giallo paglierino, dal profumo intenso, con note agrumate e vegetali, caratterizzato da un gusto fresco e di buona persistenza. </p>
+            </div>
+            
+            <div class="grid-item">
+                <img src="images/product/wine/pinot.jpg" alt="Bottiglia vino Pinot nero rose"/>
+                <h2>Pinot nero rose IGT</h2>
+                <p>Vino dal colore rosa tenue arricchito dal caratteristico profumo con note di piccoli frutti rossi e dal gusto fresco, secco e sapido.</p>
+            </div>
+
+        </section>
+        
+    </body>
+</html>

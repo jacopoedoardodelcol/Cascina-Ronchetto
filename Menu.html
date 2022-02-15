@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Ristorante</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <link rel="stylesheet" href="css/navigation.css">
+        <style type="text/css">
+            body {background-color: lightgoldenrodyellow; font-family: sans-serif;}   
+        </style>
+        <script type="text/javascript" src="js/navigation.js"></script>
+    </head>
+    
+    <body>
+
+<!-- Navigation bar -->
+        <div class="sidebar" id="nav_sidebar">
+            <a href="javascript:void(0)" class="close_button" onclick="closeSidebar()">&times;</a>
+            <a href="Home.html">Home</a>
+            <a href="Menu.html">Ristorante</a>
+            <a href="Activities.html">Visite guidate</a>
+            <a href="http://localhost/Contact.php">Contatti</a>
+            <button class="dropdown-button" onclick="dropdown()">Prodotti</button>
+            <div class="dropdown-window" id="dropdown_window">
+                <a href="Product_cheese.html">Formaggio</a>
+                <a href="Product_honey.html">Miele</a>
+                <a href="Product_oil.html">Olio</a>
+                <a href="Product_wine.html">Vino</a>
+            </div>
+        </div>    
+    
+<!-- Top menu -->
+        <div id="top_menu">
+            <button class="open_button" onclick="openSidebar()" style="display: inline-block; float: left">&#9776;</button>
+            <div style="display: inline-block; float: right; font-size: 30px; padding-right: 10px">Cascina Ronchetto</div>
+        </div>
+        
+<!-- Banner -->
+        <div class="banner">
+            <img src="images/menu_banner.jpg" style="width:100%" alt="Ristorante dell'agriturismo">
+            <div class="banner-title">Ristorante</div>
+        </div>
+        
+<!-- Menu -->
+        <div style="padding: 20px">
+            <div style="float: right; width: 50%; text-align: center">
+                <h2>Menu Brallo</h2>
+                <p>Tagliere di salumi tipici<br>
+                    Giardiniera di verdure<br>
+                    Tortino di sfoglia con prosciutto cotto<br>
+                    Crostino di polenta con ragù di salsiccia e funghi secchi<br>
+                    Cotechino con salsa verde<br><br>
+                    Agnolotti di manzo alla crema tartufata<br><br>
+                    Cosciotto di maiale alla gremolata di verdure e patate al forno<br>
+                    Cappello del prete stufato con polenta morbida<br><br>
+                    Dessert<br><br>
+                    Caffè e digestivo della casa<br>
+                    Vini della casa
+                </p>
+            </div>
+            <div style="float: left; width: 50%; text-align: center">
+                <h2>Menu Penice</h2>
+                <p>Tagliere di salumi tipici<br>
+                    Crostino con lardo<br>
+                    Giardiniera di verdure<br>
+                    “Erbazzone”<br>
+                    Salsiccia grigliata in umido di verdurine<br><br>
+                    Pappardelle al ragù di vitello al timo<br><br>
+                    Sorbetto<br><br>
+                    Spalla di vitello alle erbette aromatiche con patate al forno<br>
+                    Faraona al cartoccio con aglio e rosmarino con misticanza di stagione<br><br>
+                    Dessert<br><br>
+                    Caffè e digestivo della casa<br>
+                    Vini della casa</p>
+            </div>
+        </div>
+        
+    </body>
+</html>
